@@ -4,7 +4,7 @@ The secure tunneling component \(`aws.greengrass.SecureTunneling`\) enables you 
 
 For example, a Greengrass core device is behind a firewall that prohibits all incoming connections, which blocks SSH connections to the device\. Secure tunneling uses MQTT over WebSockets to make these connections so that you can open an SSH connection to the device by using a tunnel that is managed by AWS IoT\. For more information about using AWS IoT secure tunneling to connect to remote devices, see [AWS IoT secure tunneling](https://docs.aws.amazon.com/iot/latest/developerguide/secure-tunneling.html) in the *AWS IoT Developer Guide*\.
 
-By default, this component subscribes to the `things/greengrass-core-device/tunnels/notify` MQTT topic for secure tunneling notifications for the IoT thing that corresponds to your Greengrass core device\. 
+By default, this component subscribes to the `$aws/things/greengrass-core-device/tunnels/notify` MQTT topic for secure tunneling notifications for the IoT thing that corresponds to your Greengrass core device\. 
 
 
 
